@@ -1,0 +1,63 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: url('./Assets/Background.png');
+}
+/* spliting the screen 50% */
+.side{
+    margin-top: 40px;
+    margin-left: 45px;
+    margin-right: 45px;
+    height: 80vh; 
+    width: 50%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    overflow-x: hidden;
+    padding-top: 20px;
+    border-radius: 30px;
+   
+}
+/* move to the left */
+.left{
+    left:0;
+    background-color: rgb(3, 3, 36);
+    overflow-y: hidden;
+}
+.screen{
+    padding: 50px;
+}
+.screen h2{
+    color: white;
+}
+.screen p{
+    color: mistyrose;
+}
+.screen .header-login{
+    color: black;
+    font-size: 27px;
+    font-weight: bolder;
+}
+/* move to the right */
+.right{
+   right: 0;
+   background-color: mintcream;
+}
+/* form */
+ .email{
+    padding: 10px 17px;
+}
+.password{
+    padding: 10px 17px;
+}
+p.link{
+    color: black;
+}
+/* button */
+.btn{
+    padding: 14px 25px;
+    background-color: rgb(3, 3, 36) ;
+    color: mistyrose;
+    border: 0px;
+}
